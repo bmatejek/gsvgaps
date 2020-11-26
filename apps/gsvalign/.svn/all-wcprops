@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/gaps/!svn/ver/418/apps/gsvalign
+END
+R3CatmullRomSpline.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/gaps/!svn/ver/204/apps/gsvalign/R3CatmullRomSpline.cpp
+END
+DrawText.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/gaps/!svn/ver/268/apps/gsvalign/DrawText.cpp
+END
+poseoptimization.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/gaps/!svn/ver/372/apps/gsvalign/poseoptimization.h
+END
+R3CatmullRomSpline.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gaps/!svn/ver/204/apps/gsvalign/R3CatmullRomSpline.h
+END
+gsvalign.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/gaps/!svn/ver/418/apps/gsvalign/gsvalign.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/gaps/!svn/ver/410/apps/gsvalign/Makefile
+END
+poseoptimization.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/gaps/!svn/ver/382/apps/gsvalign/poseoptimization.cpp
+END

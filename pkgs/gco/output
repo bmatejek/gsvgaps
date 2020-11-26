@@ -1,0 +1,140 @@
+GCoptimization.cpp:31:23: warning: ‘GCO_CLOCKS_PER_SEC’ initialized and declared ‘extern’ [enabled by default]
+In file included from GCoptimization.cpp:4:0:
+GCoptimization.h: In constructor ‘GCoptimization::GCoptimization(GCoptimization::SiteID, GCoptimization::LabelID)’:
+GCoptimization.h:299:10: warning: ‘GCoptimization::m_smoothcostFn’ will be initialized after [-Wreorder]
+GCoptimization.h:298:10: warning:   ‘void* GCoptimization::m_datacostFn’ [-Wreorder]
+GCoptimization.cpp:85:1: warning:   when initialized here [-Wreorder]
+In file included from GCoptimization.cpp:4:0:
+GCoptimization.h:309:86: warning: ‘GCoptimization::m_setupDataCostsSwap’ will be initialized after [-Wreorder]
+GCoptimization.h:307:83: warning:   ‘void (GCoptimization::* GCoptimization::m_setupDataCostsExpansion)(GCoptimization::SiteID, GCoptimization::LabelID, GCoptimization::EnergyT*, GCoptimization::SiteID*)’ [-Wreorder]
+GCoptimization.cpp:85:1: warning:   when initialized here [-Wreorder]
+In file included from GCoptimization.cpp:4:0:
+GCoptimization.h:310:88: warning: ‘GCoptimization::m_setupSmoothCostsSwap’ will be initialized after [-Wreorder]
+GCoptimization.h:308:85: warning:   ‘void (GCoptimization::* GCoptimization::m_setupSmoothCostsExpansion)(GCoptimization::SiteID, GCoptimization::LabelID, GCoptimization::EnergyT*, GCoptimization::SiteID*)’ [-Wreorder]
+GCoptimization.cpp:85:1: warning:   when initialized here [-Wreorder]
+In file included from GCoptimization.cpp:4:0:
+GCoptimization.h:312:52: warning: ‘GCoptimization::m_updateLabelingDataCosts’ will be initialized after [-Wreorder]
+GCoptimization.h:305:59: warning:   ‘GCoptimization::EnergyType (GCoptimization::* GCoptimization::m_giveSmoothEnergyInternal)()’ [-Wreorder]
+GCoptimization.cpp:85:1: warning:   when initialized here [-Wreorder]
+In file included from GCoptimization.cpp:4:0:
+GCoptimization.h:316:57: warning: ‘GCoptimization::m_solveSpecialCases’ will be initialized after [-Wreorder]
+GCoptimization.h:314:36: warning:   ‘void (* GCoptimization::m_datacostFnDelete)(void*)’ [-Wreorder]
+GCoptimization.cpp:85:1: warning:   when initialized here [-Wreorder]
+In file included from GCoptimization.cpp:4:0:
+GCoptimization.h:315:38: warning: ‘GCoptimization::m_smoothcostFnDelete’ will be initialized after [-Wreorder]
+GCoptimization.h:286:11: warning:   ‘int GCoptimization::m_random_label_order’ [-Wreorder]
+GCoptimization.cpp:85:1: warning:   when initialized here [-Wreorder]
+In file included from GCoptimization.cpp:4:0:
+GCoptimization.h:296:18: warning: ‘GCoptimization::m_verbosity’ will be initialized after [-Wreorder]
+GCoptimization.h:295:18: warning:   ‘bool GCoptimization::m_labelingInfoDirty’ [-Wreorder]
+GCoptimization.cpp:85:1: warning:   when initialized here [-Wreorder]
+In file included from GCoptimization.cpp:4:0:
+GCoptimization.h:295:18: warning: ‘GCoptimization::m_labelingInfoDirty’ will be initialized after [-Wreorder]
+GCoptimization.h:281:11: warning:   ‘GCoptimization::SiteID* GCoptimization::m_lookupSiteVar’ [-Wreorder]
+GCoptimization.cpp:85:1: warning:   when initialized here [-Wreorder]
+In file included from GCoptimization.cpp:4:0:
+GCoptimization.h:281:11: warning: ‘GCoptimization::m_lookupSiteVar’ will be initialized after [-Wreorder]
+GCoptimization.h:280:11: warning:   ‘GCoptimization::LabelID* GCoptimization::m_labeling’ [-Wreorder]
+GCoptimization.cpp:85:1: warning:   when initialized here [-Wreorder]
+In file included from GCoptimization.cpp:4:0:
+GCoptimization.h:291:18: warning: ‘GCoptimization::m_activeLabelCounts’ will be initialized after [-Wreorder]
+GCoptimization.h:284:11: warning:   ‘int GCoptimization::m_stepsThisCycle’ [-Wreorder]
+GCoptimization.cpp:85:1: warning:   when initialized here [-Wreorder]
+GCoptimization.cpp: In member function ‘void GCoptimization::updateLabelingInfo(bool, bool, bool)’:
+GCoptimization.cpp:1173:15: warning: unused variable ‘energy’ [-Wunused-variable]
+In file included from GCoptimization.h:110:0,
+                 from GCoptimization.cpp:4:
+graph.cpp: In instantiation of ‘Graph<captype, tcaptype, flowtype>::Graph(int, int, void (*)(char*)) [with captype = int; tcaptype = int; flowtype = long long int]’:
+energy.h:187:189:   required from ‘Energy<captype, tcaptype, flowtype>::Energy(int, int, void (*)(char*)) [with captype = int; tcaptype = int; flowtype = long long int]’
+GCoptimization.cpp:1230:33:   required from here
+graph.cpp:21:83: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+In file included from GCoptimization.h:111:0,
+                 from GCoptimization.cpp:4:
+maxflow.cpp: In instantiation of ‘flowtype Graph<captype, tcaptype, flowtype>::maxflow(bool, Block<int>*) [with captype = int; tcaptype = int; flowtype = long long int]’:
+energy.h:325:33:   required from ‘Energy<captype, tcaptype, flowtype>::TotalValue Energy<captype, tcaptype, flowtype>::minimize() [with captype = int; tcaptype = int; flowtype = long long int; Energy<captype, tcaptype, flowtype>::TotalValue = long long int]’
+GCoptimization.cpp:1237:37:   required from here
+maxflow.cpp:484:145: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+maxflow.cpp:485:126: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+In file included from GCoptimization.cpp:4:0:
+GCoptimization.h: In instantiation of ‘GCoptimization::GreedyIter<DataCostT>::GreedyIter(DataCostT&, GCoptimization::SiteID) [with DataCostT = GCoptimization::DataCostFnFromArray; GCoptimization::SiteID = int]’:
+GCoptimization.cpp:587:45:   required from ‘GCoptimization::EnergyType GCoptimization::solveGreedy() [with DataCostT = GCoptimization::DataCostFnFromArray; GCoptimization::EnergyType = long long int]’
+GCoptimization.cpp:506:4:   required from ‘bool GCoptimization::solveSpecialCases(GCoptimization::EnergyType&) [with DataCostT = GCoptimization::DataCostFnFromArray; GCoptimization::EnergyType = long long int]’
+GCoptimization.cpp:117:26:   required from here
+GCoptimization.h:508:14: warning: ‘GCoptimization::GreedyIter<GCoptimization::DataCostFnFromArray>::m_dc’ will be initialized after [-Wreorder]
+GCoptimization.h:507:10: warning:   ‘GCoptimization::SiteID GCoptimization::GreedyIter<GCoptimization::DataCostFnFromArray>::m_site’ [-Wreorder]
+GCoptimization.h:479:3: warning:   when initialized here [-Wreorder]
+In file included from GCoptimization.h:110:0,
+                 from GCoptimization.cpp:4:
+graph.cpp: In instantiation of ‘void Graph<captype, tcaptype, flowtype>::reallocate_arcs() [with captype = int; tcaptype = int; flowtype = long long int]’:
+graph.h:408:27:   required from ‘void Graph<captype, tcaptype, flowtype>::add_edge(Graph<captype, tcaptype, flowtype>::node_id, Graph<captype, tcaptype, flowtype>::node_id, captype, captype) [with captype = int; tcaptype = int; flowtype = long long int; Graph<captype, tcaptype, flowtype>::node_id = int]’
+energy.h:237:3:   required from ‘void Energy<captype, tcaptype, flowtype>::add_term2(Energy<captype, tcaptype, flowtype>::Var, Energy<captype, tcaptype, flowtype>::Var, Energy<captype, tcaptype, flowtype>::Value, Energy<captype, tcaptype, flowtype>::Value, Energy<captype, tcaptype, flowtype>::Value, Energy<captype, tcaptype, flowtype>::Value) [with captype = int; tcaptype = int; flowtype = long long int; Energy<captype, tcaptype, flowtype>::Var = int; Energy<captype, tcaptype, flowtype>::Value = int]’
+GCoptimization.cpp:304:42:   required from here
+graph.cpp:94:73: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+In file included from GCoptimization.cpp:4:0:
+GCoptimization.h: In instantiation of ‘GCoptimization::GreedyIter<DataCostT>::GreedyIter(DataCostT&, GCoptimization::SiteID) [with DataCostT = GCoptimization::DataCostFunctor; GCoptimization::SiteID = int]’:
+GCoptimization.cpp:587:45:   required from ‘GCoptimization::EnergyType GCoptimization::solveGreedy() [with DataCostT = GCoptimization::DataCostFunctor; GCoptimization::EnergyType = long long int]’
+GCoptimization.cpp:506:4:   required from ‘bool GCoptimization::solveSpecialCases(GCoptimization::EnergyType&) [with DataCostT = GCoptimization::DataCostFunctor; GCoptimization::EnergyType = long long int]’
+GCoptimization.cpp:765:49:   required from here
+GCoptimization.h:508:14: warning: ‘GCoptimization::GreedyIter<GCoptimization::DataCostFunctor>::m_dc’ will be initialized after [-Wreorder]
+GCoptimization.h:507:10: warning:   ‘GCoptimization::SiteID GCoptimization::GreedyIter<GCoptimization::DataCostFunctor>::m_site’ [-Wreorder]
+GCoptimization.h:479:3: warning:   when initialized here [-Wreorder]
+In file included from GCoptimization.h:110:0,
+                 from GCoptimization.cpp:4:
+graph.cpp: In instantiation of ‘void Graph<captype, tcaptype, flowtype>::reallocate_nodes(int) [with captype = int; tcaptype = int; flowtype = long long int]’:
+graph.h:364:34:   required from ‘Graph<captype, tcaptype, flowtype>::node_id Graph<captype, tcaptype, flowtype>::add_node(int) [with captype = int; tcaptype = int; flowtype = long long int; Graph<captype, tcaptype, flowtype>::node_id = int]’
+energy.h:198:30:   required from ‘Energy<captype, tcaptype, flowtype>::Var Energy<captype, tcaptype, flowtype>::add_variable(int) [with captype = int; tcaptype = int; flowtype = long long int; Energy<captype, tcaptype, flowtype>::Var = int]’
+GCoptimization.cpp:1140:31:   required from here
+graph.cpp:70:74: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+In file included from GCoptimization.h:111:0,
+                 from GCoptimization.cpp:4:
+maxflow.cpp: In instantiation of ‘void Graph<captype, tcaptype, flowtype>::process_sink_orphan(Graph<captype, tcaptype, flowtype>::node*) [with captype = int; tcaptype = int; flowtype = long long int]’:
+maxflow.cpp:584:22:   required from ‘flowtype Graph<captype, tcaptype, flowtype>::maxflow(bool, Block<int>*) [with captype = int; tcaptype = int; flowtype = long long int]’
+energy.h:325:33:   required from ‘Energy<captype, tcaptype, flowtype>::TotalValue Energy<captype, tcaptype, flowtype>::minimize() [with captype = int; tcaptype = int; flowtype = long long int; Energy<captype, tcaptype, flowtype>::TotalValue = long long int]’
+GCoptimization.cpp:1237:37:   required from here
+maxflow.cpp:443:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+maxflow.cpp: In instantiation of ‘void Graph<captype, tcaptype, flowtype>::process_source_orphan(Graph<captype, tcaptype, flowtype>::node*) [with captype = int; tcaptype = int; flowtype = long long int]’:
+maxflow.cpp:585:22:   required from ‘flowtype Graph<captype, tcaptype, flowtype>::maxflow(bool, Block<int>*) [with captype = int; tcaptype = int; flowtype = long long int]’
+energy.h:325:33:   required from ‘Energy<captype, tcaptype, flowtype>::TotalValue Energy<captype, tcaptype, flowtype>::minimize() [with captype = int; tcaptype = int; flowtype = long long int; Energy<captype, tcaptype, flowtype>::TotalValue = long long int]’
+GCoptimization.cpp:1237:37:   required from here
+maxflow.cpp:366:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+In file included from GCoptimization.cpp:4:0:
+GCoptimization.h: In instantiation of ‘GCoptimization::GreedyIter<DataCostT>::GreedyIter(DataCostT&, GCoptimization::SiteID) [with DataCostT = GCoptimization::DataCostFnFromFunction; GCoptimization::SiteID = int]’:
+GCoptimization.cpp:587:45:   required from ‘GCoptimization::EnergyType GCoptimization::solveGreedy() [with DataCostT = GCoptimization::DataCostFnFromFunction; GCoptimization::EnergyType = long long int]’
+GCoptimization.cpp:506:4:   required from ‘bool GCoptimization::solveSpecialCases(GCoptimization::EnergyType&) [with DataCostT = GCoptimization::DataCostFnFromFunction; GCoptimization::EnergyType = long long int]’
+GCoptimization.cpp:231:2:   required from ‘void GCoptimization::specializeDataCostFunctor(UserFunctor) [with UserFunctor = GCoptimization::DataCostFnFromFunction]’
+GCoptimization.cpp:713:54:   required from here
+GCoptimization.h:508:14: warning: ‘GCoptimization::GreedyIter<GCoptimization::DataCostFnFromFunction>::m_dc’ will be initialized after [-Wreorder]
+GCoptimization.h:507:10: warning:   ‘GCoptimization::SiteID GCoptimization::GreedyIter<GCoptimization::DataCostFnFromFunction>::m_site’ [-Wreorder]
+GCoptimization.h:479:3: warning:   when initialized here [-Wreorder]
+GCoptimization.h: In instantiation of ‘GCoptimization::GreedyIter<DataCostT>::GreedyIter(DataCostT&, GCoptimization::SiteID) [with DataCostT = GCoptimization::DataCostFnFromFunctionExtra; GCoptimization::SiteID = int]’:
+GCoptimization.cpp:587:45:   required from ‘GCoptimization::EnergyType GCoptimization::solveGreedy() [with DataCostT = GCoptimization::DataCostFnFromFunctionExtra; GCoptimization::EnergyType = long long int]’
+GCoptimization.cpp:506:4:   required from ‘bool GCoptimization::solveSpecialCases(GCoptimization::EnergyType&) [with DataCostT = GCoptimization::DataCostFnFromFunctionExtra; GCoptimization::EnergyType = long long int]’
+GCoptimization.cpp:231:2:   required from ‘void GCoptimization::specializeDataCostFunctor(UserFunctor) [with UserFunctor = GCoptimization::DataCostFnFromFunctionExtra]’
+GCoptimization.cpp:721:70:   required from here
+GCoptimization.h:508:14: warning: ‘GCoptimization::GreedyIter<GCoptimization::DataCostFnFromFunctionExtra>::m_dc’ will be initialized after [-Wreorder]
+GCoptimization.h:507:10: warning:   ‘GCoptimization::SiteID GCoptimization::GreedyIter<GCoptimization::DataCostFnFromFunctionExtra>::m_site’ [-Wreorder]
+GCoptimization.h:479:3: warning:   when initialized here [-Wreorder]
+In file included from graph.h:43:0,
+                 from energy.h:77,
+                 from GCoptimization.h:109,
+                 from GCoptimization.cpp:4:
+block.h: In instantiation of ‘Type* Block<Type>::New(int) [with Type = int]’:
+maxflow.cpp:110:36:   required from ‘void Graph<captype, tcaptype, flowtype>::add_to_changed_list(Graph<captype, tcaptype, flowtype>::node*) [with captype = int; tcaptype = int; flowtype = long long int]’
+maxflow.cpp:520:6:   required from ‘flowtype Graph<captype, tcaptype, flowtype>::maxflow(bool, Block<int>*) [with captype = int; tcaptype = int; flowtype = long long int]’
+energy.h:325:33:   required from ‘Energy<captype, tcaptype, flowtype>::TotalValue Energy<captype, tcaptype, flowtype>::minimize() [with captype = int; tcaptype = int; flowtype = long long int; Energy<captype, tcaptype, flowtype>::TotalValue = long long int]’
+GCoptimization.cpp:1237:37:   required from here
+block.h:124:76: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+block.h: In instantiation of ‘Type* DBlock<Type>::New() [with Type = Graph<int, int, long long int>::nodeptr]’:
+maxflow.cpp:95:2:   required from ‘void Graph<captype, tcaptype, flowtype>::set_orphan_rear(Graph<captype, tcaptype, flowtype>::node*) [with captype = int; tcaptype = int; flowtype = long long int]’
+maxflow.cpp:183:19:   required from ‘void Graph<captype, tcaptype, flowtype>::maxflow_reuse_trees_init() [with captype = int; tcaptype = int; flowtype = long long int]’
+maxflow.cpp:487:19:   required from ‘flowtype Graph<captype, tcaptype, flowtype>::maxflow(bool, Block<int>*) [with captype = int; tcaptype = int; flowtype = long long int]’
+energy.h:325:33:   required from ‘Energy<captype, tcaptype, flowtype>::TotalValue Energy<captype, tcaptype, flowtype>::minimize() [with captype = int; tcaptype = int; flowtype = long long int; Energy<captype, tcaptype, flowtype>::TotalValue = long long int]’
+GCoptimization.cpp:1237:37:   required from here
+block.h:223:76: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+GCoptimization.cpp: In member function ‘void GCoptimizationGridGraph::computeNeighborWeights(GCoptimization::EnergyTermType*, GCoptimization::EnergyTermType*)’:
+GCoptimization.cpp:1510:38: warning: ‘weight’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+LinkedBlockList.cpp: In member function ‘void LinkedBlockList::addFront(ListType)’:
+LinkedBlockList.cpp:18:35: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+LinkedBlockList.cpp: In member function ‘void* LinkedBlockList::next()’:
+LinkedBlockList.cpp:26:53: warning: array subscript has type ‘char’ [-Wchar-subscripts]
+ar: creating ../../lib/i686/libgco.a

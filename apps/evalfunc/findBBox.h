@@ -1,0 +1,20 @@
+#ifndef FIND_BBOX_H
+#define FIND_BBOX_H
+
+////////////////////////////////////////////////////////////////////////
+// Include Files
+////////////////////////////////////////////////////////////////////////
+
+#include "helper.h"
+#include "vocFeature.h"
+#include "evalfunc.h"
+
+////////////////////////////////////////////////////////////////////////
+// Visible functions
+////////////////////////////////////////////////////////////////////////
+
+int findBBox(CorrelateImage *, int primaryImage, int secondaryImage);
+R3Point PointFromImage(CorrelateImage *, int imageIndex, double height, R2Point center);
+double MatchingBBoxes(CorrelateImage *, int primaryIndex, int secondaryIndex);
+
+#endif // FIND_BBOX_H
